@@ -2,6 +2,7 @@ package com.example.movieplayground.di
 
 import com.example.movieplayground.api.ApiService
 import com.example.movieplayground.helper.Constants
+import com.example.movieplayground.helper.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,12 +15,9 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object AppModule {
 
-    @Provides
-    fun provideBaseUrl() = Constants.BASE_URL
-
-    @Provides
+       @Provides
     @Singleton
-    fun provideRetrofitInstance(BASE_URL: String): ApiService =
+    fun provideRetrofitInstance(): ApiService =
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
