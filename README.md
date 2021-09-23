@@ -1,5 +1,5 @@
 # MoviePlayground
-Dagger-Hilt, Retrofit, MVVM,Coroutine.
+Dagger-Hilt, Retrofit, MVVM,Coroutine
 
 The app displays a list of movies on screen.
 
