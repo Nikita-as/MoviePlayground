@@ -1,6 +1,6 @@
-package com.example.movieplayground.repository
+package com.example.movieplayground.domain.repository
 
-import com.example.movieplayground.api.ApiService
+import com.example.movieplayground.data.remote.ApiService
 import javax.inject.Inject
 
 class MovieRepository

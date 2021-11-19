@@ -1,8 +1,7 @@
 package com.example.movieplayground.di
 
-import com.example.movieplayground.api.ApiService
-import com.example.movieplayground.helper.Constants
-import com.example.movieplayground.helper.Constants.BASE_URL
+import com.example.movieplayground.data.remote.ApiService
+import com.example.movieplayground.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

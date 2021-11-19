@@ -1,4 +1,4 @@
-package com.example.movieplayground.adapter
+package com.example.movieplayground.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.movieplayground.databinding.ItemMovieBinding
-import com.example.movieplayground.models.MovieItem
+import com.example.movieplayground.domain.models.MovieItem
 
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 

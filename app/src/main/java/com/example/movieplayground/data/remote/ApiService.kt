@@ -1,7 +1,7 @@
-package com.example.movieplayground.api
+package com.example.movieplayground.data.remote
 
-import com.example.movieplayground.helper.Constants
-import com.example.movieplayground.models.Movie
+import com.example.movieplayground.util.Constants
+import com.example.movieplayground.domain.models.Movie
 import retrofit2.Response
 import retrofit2.http.GET
 

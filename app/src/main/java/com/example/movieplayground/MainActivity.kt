@@ -3,11 +3,10 @@ package com.example.movieplayground
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.movieplayground.adapter.MovieAdapter
+import com.example.movieplayground.presentation.adapter.MovieAdapter
 import com.example.movieplayground.databinding.ActivityMainBinding
-import com.example.movieplayground.viewmodel.MovieViewModel
+import com.example.movieplayground.presentation.viewmodels.MovieViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
